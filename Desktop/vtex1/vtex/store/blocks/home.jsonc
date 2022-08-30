@@ -1,0 +1,31 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text","info-card#arbol"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "hoy es un gran dia para aprender ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "imageUrl":"assets/ninas.png"
+      
+    }
+  },
+  "info-card#arbol":{
+    "props":{
+      "id":"infoCardarbol",
+      "isFullModeStyle": true,
+      "textPosition":"left",
+      "imageUrl":"assets/ninas.png",
+      "headling":"presentanos la nina",
+      "subhead":"descubre lo que puede hacer",
+      "callToActionText":"conoce mas",
+      "callToActionUrl":"#",
+      "textAlignment":"left",
+      "blockClass":"infoCardarbol"
+  }
+}
+}
