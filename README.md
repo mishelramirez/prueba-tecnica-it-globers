@@ -1,0 +1,1 @@
+Esta prueba tecnica esta dirigida a It Globers para el puesto de Desarrolladora Frontend
