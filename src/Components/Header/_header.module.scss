@@ -1,6 +1,28 @@
-
 .container {
-    display: flex;
-    background-color: green;
-    
+  display: flex;
+  justify-content: space-between;
+}
+.containerOptions {
+  display: flex;
+}
+
+.containerOptions div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.containerOptions div:nth-child(-n + 3) {
+  border-right: 1px solid red;
+}
+.containerAccount {
+  display: flex;
+  
+}
+.containerAccount p:nth-child(1) {
+  border-right: 1px solid red;
+  
+}
+p{
+    padding: 10px;
 }
