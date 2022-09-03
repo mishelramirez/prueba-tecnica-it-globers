@@ -7,6 +7,7 @@ import {
 } from "reactstrap";
 
 import 'bootstrap/dist/css/bootstrap.css';
+import style from "./_home.module.scss"
 
 const items = [
   {
@@ -49,13 +50,17 @@ function Caruosel(props) {
 
   const slides = items.map((item) => {
     return (
+
+
       <CarouselItem
         className="custom-tag"
         tag="div"
         key={item.id}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-      >
+      > 
+      <img className={style.caruoselImage} src={item.src} alt={item.altText} />
+      
         <CarouselCaption
           className="text-danger"
           captionText={item.caption}

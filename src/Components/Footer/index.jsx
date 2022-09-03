@@ -1,10 +1,11 @@
 import React from 'react'
-import style from "./_footer.scss"
+import style from "./_footer.modules.scss"
+
 export default function Footer() {
   return (
-    <div>
+    <div className={style.containerFooter}>
       <div>Pufi</div>
-      <div>
+      <div className={style.footerUno}>
         <p>PUFI RAIN</p>
         <p>PUFI PUFF</p>
         <p>PUFI CART</p>
