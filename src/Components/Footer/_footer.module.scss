@@ -1,0 +1,55 @@
+.containerFooter {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+  height: 200px;
+ 
+}
+
+.containerFooter > div{
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  .containerFooter div:nth-child(3) div{
+      width: 50%;
+      white-space: nowrap;
+  }
+
+  p{
+    padding: 0;
+    margin: 10px 0 ;
+  }
+}
+.containerIconShield{
+    display: flex;
+    align-items: center;
+}
+.iconShield {
+    display: flex;
+}
+.iconShield svg{
+    
+    height: 50px;
+    width: 50px;
+
+}.containerIconShield p {
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.containerFooter div:nth-child(5){
+    flex-direction: row;
+    gap: 10px;
+}
+
+    
+
+
+
+/* .containerFooter div:nth-child(-n + 1) {
+  border-right: 1px solid red;
+} */
