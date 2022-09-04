@@ -1,16 +1,17 @@
-*{
-    font-family: 'Inter', sans-serif;
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
-@mixin fontStyle($color, $fontZise){
-    font-family: 'Comic Neue', cursive;
-    color: $color;
-    font-size: $fontZise;
+
+@mixin fontStyle($color, $fontZise) {
+  font-family: "Comic Neue", cursive;
+  color: $color;
+  font-size: $fontZise;
 }
 
 .footerLogo {
-    @include fontStyle(#000, 36px)
-
+  @include fontStyle(#000, 36px);
 }
-.headerLogo{
-@include fontStyle(#fff, 46px)
+.headerLogo {
+  @include fontStyle(#fff, 46px);
 }

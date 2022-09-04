@@ -1,5 +1,4 @@
 import React from "react";
-
 import style from "./_home.module.scss";
 
 export default function HomeImage(props) {
@@ -15,8 +14,8 @@ export default function HomeImage(props) {
         <img className={style.imageHome} src={image2} alt={alt} />
         <p className={style.title}>{title}</p>
         <p>{description}</p>
-
-        <button className={style.button}> > VER MAS</button>
+        <button className={style.button}>{"> VER MAS"}</button>
+        <div className={style.rombo}></div>
       </div>
     </div>
   );

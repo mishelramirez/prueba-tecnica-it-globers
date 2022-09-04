@@ -2,22 +2,22 @@ import React from "react";
 import gallery from "./gallery";
 import style from "./_home.module.scss";
 
-export default function Gallery(props) {
-  const { image, altText } = props;
+export default function Gallery() {
+  console.log(gallery);
 
   return (
-    <div>
+    <div >
       <p className={style.titleNet}>INSTAGRAM</p>
       <p className={style.titleEspufi}>#ESPUFI</p>
-      <img src={image} alt={altText} />
+      <div className={style.containerCollage}>
+        {gallery.map((image) => {
+          return <img className={style.collageImage} src={image.image} />;
+        })}
+      </div>
       <p>NEWSLETTER</p>
       <p>
         SUSCRIBITE <br />y enterate de todas las novedades
       </p>
-      {/* 
-      {gallery.map((image) => {
-        return <div>hola</div>;
-      })} */}
     </div>
   );
 }

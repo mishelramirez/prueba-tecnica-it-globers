@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <Carousel />
-
       {homeImages.map((image, index) => {
         return (
           <div key={index}>
