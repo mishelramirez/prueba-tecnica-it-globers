@@ -11,17 +11,17 @@ import style from "./_home.module.scss";
 
 const items = [
   {
-    src: require("../../imagenes/bolsas.jpg"),
+    src: require("../../assets/Carousel/imgCarousel1.jpg"),
     altText: "SHOP",
     caption: "SHOP",
   },
   {
-    src: require("../../imagenes/pufi.jpg"),
+    src: require("../../assets/Carousel/imgCarousel3.jpg"),
     altText: "SHOP",
     caption: "SHOP",
   },
   {
-    src: require("../../imagenes/compra.png"),
+    src: require("../../assets/Carousel/imgCarousel2.jpg"),
     altText: "SHOP",
     caption: "SHOP",
   },

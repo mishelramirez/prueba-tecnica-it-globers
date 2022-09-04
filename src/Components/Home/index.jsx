@@ -3,6 +3,7 @@ import Carousel from "./Carousel";
 import Gallery from "./Gallery";
 
 export default function Home() {
+
   return (
     <>
       <Carousel />
