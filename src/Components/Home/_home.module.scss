@@ -46,6 +46,7 @@
 .title {
   font-size: 20px;
   font-weight: bold;
+  font-weight: 400;
 }
 
 .rombo {
@@ -63,9 +64,32 @@
   margin: auto;
   box-sizing: content-box;
 }
-.collageImage{
+.collageImage {
   width: 200px;
   height: 200px;
   border: 1px solid #fff;
 }
+.collageNET {
+  text-align: center;
+  line-height: 0.5;
+  margin: 100px;
 
+  .titleNet {
+    font-weight: 30;
+    
+  }
+  .titleEspufi {
+    font-weight: bolder;
+    font-size:40px ;
+    font-weight: 30;
+  }
+
+}
+.collageform{
+  text-align: center;
+  line-height: 1.5;
+  margin: 100px;
+}
+.titleSuscription{
+  font-size: 20px;
+}

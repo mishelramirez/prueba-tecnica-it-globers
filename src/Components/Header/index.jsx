@@ -32,7 +32,7 @@ export default function Header() {
         </div>
       </div>
       <div className={style.containerAccount}>
-        <p >MI CUENTA</p>
+        <p>MI CUENTA</p>
         <p>MI COMPRA</p>
       </div>
     </div>
