@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <div className={style.containerFooter}>
-      <div> PUFI</div>
+      <div><p className="footerLogo">PUFI</p> </div>
       <div>
         <p>PUFI RAIN</p>
         <p>PUFI PUFF</p>

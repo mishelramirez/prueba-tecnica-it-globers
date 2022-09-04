@@ -1,0 +1,16 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+@mixin fontStyle($color, $fontZise){
+    font-family: 'Comic Neue', cursive;
+    color: $color;
+    font-size: $fontZise;
+}
+
+.footerLogo{
+    @include fontStyle(#000, 36px)
+
+}
+.headerLogo{
+@include fontStyle(#fff, 46px)
+}

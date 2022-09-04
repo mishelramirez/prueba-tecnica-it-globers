@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div className={style.container}>
       <div className="header.logo">
-        <p className="prueba">PUFI</p>
+        <p className="headerLogo">PUFI</p>
       </div>
       <div className={style.containerOptions}>
         <div>

@@ -6,24 +6,24 @@ import {
   CarouselCaption,
 } from "reactstrap";
 
-import 'bootstrap/dist/css/bootstrap.css';
-import style from "./_home.module.scss"
+import "bootstrap/dist/css/bootstrap.css";
+import style from "./_home.module.scss";
 
 const items = [
   {
-    src: "../../imagenes/bolsas.jpg",
-    altText: "Slide 1",
-    caption: "Slide 1",
+    src: require("../../imagenes/bolsas.jpg"),
+    altText: "SHOP",
+    caption: "SHOP",
   },
   {
     src: require("../../imagenes/pufi.jpg"),
-    altText: "Slide 2",
-    caption: "Slide 2",
+    altText: "SHOP",
+    caption: "SHOP",
   },
   {
     src: require("../../imagenes/compra.png"),
-    altText: "Slide 3",
-    caption: "Slide 3",
+    altText: "SHOP",
+    caption: "SHOP",
   },
 ];
 
@@ -50,20 +50,21 @@ function Caruosel(props) {
 
   const slides = items.map((item) => {
     return (
-
-
       <CarouselItem
-        className="custom-tag"
+        className={style.customTag}
         tag="div"
         key={item.id}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-      > 
-      <img className={style.caruoselImage} src={item.src} alt={item.altText} />
-      
+      >
+        <img
+          className={style.caruoselImage}
+          src={item.src}
+          alt={item.altText}
+        />
+
         <CarouselCaption
-          className="text-danger"
-          captionText={item.caption}
+          className={style.buttonAction}
           captionHeader={item.caption}
         />
       </CarouselItem>
@@ -72,13 +73,6 @@ function Caruosel(props) {
 
   return (
     <div>
-      <style>
-        {`.custom-tag {
-              max-width: 200%;
-              height: 500px;
-              background: black;
-            }`}
-      </style>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
@@ -86,7 +80,6 @@ function Caruosel(props) {
           onClickHandler={goToIndex}
         />
         {slides}
-
       </Carousel>
     </div>
   );

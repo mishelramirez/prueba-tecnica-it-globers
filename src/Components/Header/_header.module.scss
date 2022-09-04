@@ -1,9 +1,17 @@
 .container {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  height: 52px;
+  margin-top: 23px;
+  padding: 0px 41px;
 }
 .containerOptions {
   display: flex;
+  justify-content: center;
 }
 
 .containerOptions div {
@@ -13,16 +21,20 @@
   padding: 10px;
 }
 .containerOptions div:nth-child(-n + 3) {
-  border-right: 1px solid red;
+  border-right: 1px solid rgb(244, 227, 227);
+}
+.containerOptions svg {
+  height: 25px;
+  width: 25px;
 }
 .containerAccount {
   display: flex;
-  
+  align-items: center;
+  font-size: 10px;
 }
 .containerAccount p:nth-child(1) {
-  border-right: 1px solid red;
-  
+  border-right: 1px solid rgb(250, 241, 241);
 }
-p{
-    padding: 10px;
+p {
+  padding: 10px;
 }
