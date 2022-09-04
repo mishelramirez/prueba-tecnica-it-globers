@@ -8,11 +8,7 @@ export default function Gallery() {
 
        <div>
         <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        
        </div>
         
       
