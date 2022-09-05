@@ -127,9 +127,23 @@
   position: absolute;
   right: 0;
   padding: 10px 15px;
+  top: 0;
 
   svg {
     height: 25px;
     width: 25px;
   }
+}
+
+.collageform div {
+  visibility: hidden;
+  margin-top: 15px;
+}
+
+.collageform div::after {
+  visibility: visible;
+  content: "El correo electrónico debe ser un correo electrónico";
+  position: relative;
+  left: -12%;
+  color: red;
 }
