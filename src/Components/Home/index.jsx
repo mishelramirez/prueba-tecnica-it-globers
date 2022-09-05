@@ -3,6 +3,7 @@ import Carousel from "./Carousel";
 import homeImages from "./images";
 import HomeImage from "./HomeImage";
 import Gallery from "./GalleryHome";
+import ContactForm from "./ContactForm";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         );
       })}
       <Gallery />
+      <ContactForm />
     </>
   );
 }

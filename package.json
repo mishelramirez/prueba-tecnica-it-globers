@@ -17,6 +17,7 @@
     "url": "https://github.com/mishelramirez/prueba-tecnica-it-globers/issues"
   },
   "dependencies": {
+    "@formspree/react": "^2.3.3",
     "bootstrap": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

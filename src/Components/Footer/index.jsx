@@ -11,7 +11,9 @@ import {
 export default function Footer() {
   return (
     <div className={style.containerFooter}>
-      <div><p className="footerLogo">PUFI</p> </div>
+      <div>
+        <p className="footerLogo">PUFI</p>{" "}
+      </div>
       <div>
         <p>PUFI RAIN</p>
         <p>PUFI PUFF</p>
@@ -31,21 +33,18 @@ export default function Footer() {
         <p>Compra 100% segura</p>
 
         <div className={style.containerIconShield}>
-
-          
-
-            <div className={style.iconShield}>
-              <IoQrCodeOutline />
-              <IoShieldHalfSharp />
-            </div>
-
-            <div>
-              <p>Compra con <br/>la garantia <br/> de Pufi</p>
-            </div>
-
+          <div className={style.iconShield}>
+            <IoQrCodeOutline />
+            <IoShieldHalfSharp />
           </div>
 
-       
+          <div>
+            <p>
+              Compra con <br />
+              la garantia <br /> de Pufi
+            </p>
+          </div>
+        </div>
       </div>
 
       <div>

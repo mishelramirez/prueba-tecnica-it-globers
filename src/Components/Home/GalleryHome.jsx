@@ -1,6 +1,7 @@
 import React from "react";
 import gallery from "./gallery";
 import style from "./_home.module.scss";
+import ContactForm from "./ContactForm";
 
 export default function Gallery() {
   return (
@@ -14,22 +15,7 @@ export default function Gallery() {
           return <img className={style.collageImage} src={image.image} />;
         })}
       </div>
-      <div className={style.collageform}>
-        <p className={style.newsLetter}>NEWSLETTER</p>
-        <p className={style.titleSuscription}>
-         <strong >SUSCRIBITE</strong>  <br />y enterate de todas las novedades
-        </p>
-        <form>
-          <label>
-            <input
-              type="Email"
-              name="correo"
-              id="nombre"
-              placeholder="ingresa su correo"
-            />
-          </label>
-        </form>
-      </div>
+     
     </div>
   );
 }

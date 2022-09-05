@@ -76,20 +76,47 @@
 
   .titleNet {
     font-weight: 30;
-    
   }
   .titleEspufi {
     font-weight: bolder;
-    font-size:40px ;
+    font-size: 40px;
     font-weight: 30;
   }
-
 }
-.collageform{
+.collageform {
   text-align: center;
   line-height: 1.5;
   margin: 100px;
 }
-.titleSuscription{
+.titleSuscription {
   font-size: 20px;
+}
+
+.containerForm {
+  position: relative;
+  display: inline-block;
+  width: 600px;
+}
+
+.inputContact {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.inputContact::placeholder {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.buttonSubmit {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 0;
+  padding: 10px 15px;
+
+  svg {
+    height: 25px;
+    width: 25px;
+  }
 }
