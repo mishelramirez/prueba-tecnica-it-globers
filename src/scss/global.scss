@@ -5,6 +5,7 @@
 
 @mixin fontStyle($color, $fontZise) {
   font-family: "Comic Neue", cursive;
+  font-weight: bold;
   color: $color;
   font-size: $fontZise;
 }

@@ -75,7 +75,9 @@
   margin: 100px;
 
   .titleNet {
+    opacity: 0.5;
     font-weight: 30;
+    padding: 0;
   }
   .titleEspufi {
     font-weight: bolder;
@@ -87,9 +89,20 @@
   text-align: center;
   line-height: 1.5;
   margin: 100px;
-}
-.titleSuscription {
-  font-size: 20px;
+
+  .newsLetter {
+    opacity: 0.5;
+    margin: 0;
+  }
+  .titleSuscription {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+  }
+  .suscribeNesletter {
+    padding: 0;
+    font-size: 17px;
+  }
 }
 
 .containerForm {

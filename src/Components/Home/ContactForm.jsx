@@ -3,7 +3,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import style from "./_home.module.scss";
 import { IoArrowForward } from "react-icons/io5";
 
-export default ContactForm = () => {
+const ContactForm = () => {
   const [state, handleSubmit] = useForm("xoqbjjyl");
 
   if (state.succeeded) return <p>Gracias por unirte!</p>;
@@ -11,9 +11,8 @@ export default ContactForm = () => {
   return (
     <div className={style.collageform}>
       <p className={style.newsLetter}>NEWSLETTER</p>
-      <p className={style.titleSuscription}>
-        <strong>SUSCRIBITE</strong> <br />y enterate de todas las novedades
-      </p>
+      <p className={style.titleSuscription}>SUSCRIBITE</p>
+      <p className={style.suscribeNesletter}>y enterate de todas las novedades</p>
       <form onSubmit={handleSubmit} className={style.containerForm}>
         <input
           id="email"
@@ -35,3 +34,5 @@ export default ContactForm = () => {
     </div>
   );
 };
+
+export default ContactForm;

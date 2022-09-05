@@ -1,57 +1,67 @@
 .containerFooter {
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+  box-shadow: 0px -7px 9px 0 rgb(0 0 0 / 9%);
   height: 200px;
- 
+  padding: 36px 0;
 }
 
-.containerFooter > div{
+.containerFooter > div {
   display: flex;
   font-weight: bold;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  
-  .containerFooter div:nth-child(3) div{
-      width: 50%;
-      white-space: nowrap;
+
+  .containerFooter div:nth-child(3) div {
+    width: 50%;
+    white-space: nowrap;
   }
 
-  p{
+  p {
     padding: 0;
-    margin: 10px 0 ;
+    margin: 10px 0;
   }
-  
 }
-.containerIconShield{
-    display: flex;
-    align-items: center;
+.containerIconShield {
+  display: flex;
+  align-items: center;
 }
 .iconShield {
-    display: flex;
+  display: flex;
 }
-.iconShield svg{
-    
-    height: 50px;
-    width: 50px;
-
-}.containerIconShield p {
-    line-height: 1.1;
-    font-weight: 400;
+.iconShield svg {
+  height: 50px;
+  width: 50px;
 }
-
-.containerFooter div:nth-child(5){
-    flex-direction: row;
-    gap: 10px;
+.containerIconShield p {
+  line-height: 1.1;
+  font-weight: 400;
 }
 
+.containerFooter div:nth-child(4) {
+  flex-direction: row;
+  gap: 10px;
+}
 
-    
+.copyRigth {
+  opacity: 0.5;
+  font-size: 12px;
+  padding: 0 38px;
 
+  p {
+    border-top: 1px solid rgba(117, 116, 116, 0.705);
+    margin: 0;
+  }
+}
 
+.containerFooter > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-/* .containerFooter div:nth-child(-n + 1) {
-  border-right: 1px solid red;
-} */
+.containerFooter > div:nth-child(-n + 3) {
+  border-right: 1px solid rgba(117, 116, 116, 0.705);
+}
